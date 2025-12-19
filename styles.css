@@ -1,0 +1,10 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+	font-variant: small-caps;
+  color: rgb(30, 70, 10);
+}
+p {
+  color: black;
+}
