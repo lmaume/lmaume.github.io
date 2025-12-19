@@ -1,10 +1,19 @@
-body {
+
+div
+{
+  width:300px;
+  margin:auto;
+}
+body
+{
   background-color: powderblue;
 }
-h1 {
-	font-variant: small-caps;
-  color: rgb(30, 70, 10);
+h1
+{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: rgb(30, 70, 10);
 }
-p {
-  color: black;
+p
+{
+	color: black;
 }
