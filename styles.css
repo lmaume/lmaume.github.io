@@ -1,10 +1,149 @@
+/*	le vert doom #306800 le noir doom #000 
+	contour doom #224021, alt contour #1B2B18, interieur #131613*/
 .test
 {
-	background-color:tomato;
+	background-color:green;
 	margin: 20px;
 	padding: 20px;
 }
-div
+
+
+ body {
+    background-image: url("https://science.nasa.gov/wp-content/uploads/2023/09/pia23865-2.jpg") ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    font-size:13px;
+    font-family: "Comic Sans MS", "Comic Sans"
+  }
+  .banner{
+    display: flex;
+    justify-content: center
+  }
+.wrapper {
+  grid-template-columns: 200px auto ; 
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.grid {
+	display: grid;
+	grid-gap: 10px;
+}
+.box {
+  color: #fff;
+  border: outset;
+  border-color: #224021;
+  padding: 5px 20px;
+  background-color: #131613;
+}
+.title {
+  display:flex;
+  justify-content: center;
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 20px;
+  align-content: center;
+  align-items: center;
+  color:#306800;
+  text-align: center; 
+  text-shadow: 3px 3px #000; 
+  font-size: 45px;
+}
+
+.grid.left {
+	grid-column: 200px;
+	text-align: center;
+	place-content: start;
+}
+.grid.right {
+	grid-column: auto;
+  text-align: center;
+  place-content: start;
+  align-items: center;
+  justify-content: center;
+  }
+.endbanner {
+  display:flex;
+  justify-content: center;
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 20px;
+  align-content: center;
+  align-items: center;
+}
+
+.headergifs {
+  margin: 0px 5px;
+  height: 60px;
+  
+}
+.icongif {
+  height:30px;
+  margin: 5px
+}
+
+ .highlight {
+  background-color: rgba(255, 243, 157, 0.5);
+}
+
+.button {
+  background-color: #181E47;
+  margin-top : 7px ;
+  border: dashed;
+  color: #A4F5F9;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 3px 3px #B48FFD;
+  transition-duration: 0.4s
+}
+.button:hover {
+  background-color: #2B96CD;
+  color: white;
+}
+.menu_title {
+  color: #FEF09C;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.img {
+    height: 350px;
+    margin:5px;
+    
+}
+
+ .solid {
+  border-bottom:2px solid #FEF09C;
+}
+/* 
+ @media only screen and (max-width: 600px) {
+  .wrapper {padding: 5px; margin:20px; width: auto}
+  .grid.left {grid-area: 3/span 2; height: 200px; overflow-y: scroll; scrollbar-color: #FEF09C #181E47; width: auto;}
+  .grid.right {grid-area: 4/span 2; width: auto;}
+  .button {font-size: 12px; margin-top: 5px;margin-bottom; 5px;}
+  .button_two {font-size: 12px; margin-top: 5px;margin-bottom; 5px;}
+  .box { font-family: Verdana, Geneva, sans-serif; }
+  .img {width: 250px; height: auto}
+  .banner {object-fit: contain; height: 40px}
+  .headergifs {margin: 0px 2px; width: 250px; height:auto}
+  .title {font-size:23px; gap:5px}
+
+} */
+
+
+
+
+/* div
 {
 	width:600px;
 	margin:auto;
@@ -21,4 +160,4 @@ h1
 p
 {
 	color: black;
-}
+} */
