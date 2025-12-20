@@ -1,12 +1,12 @@
 .test
 {
-	color:tomato;
+	background-color:tomato;
 	margin: 20px;
 	padding: 20px;
 }
 div
 {
-	width:300px;
+	width:600px;
 	margin:auto;
 }
 body
