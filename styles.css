@@ -1,12 +1,17 @@
-
+.test
+{
+	color:tomato;
+	margin: 20px;
+	padding: 20px;
+}
 div
 {
-  width:300px;
-  margin:auto;
+	width:300px;
+	margin:auto;
 }
 body
 {
-  background-color: powderblue;
+	background-color: powderblue;
 }
 h1
 {
